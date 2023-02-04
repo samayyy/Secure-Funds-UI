@@ -4,6 +4,8 @@ import HomeView from '../views/HomeView.vue'
 import SecureFundsView from '../views/SecureFundsView.vue'
 import VerifyView from '../views/VerifyView.vue'
 import CampaignView from '../views/CampaignView.vue'
+import ProfileView from '../views/ProfileView.vue'
+
 
 Vue.use(VueRouter)
 
@@ -28,6 +30,14 @@ const routes = [
     name: 'CampaignView',
     component: CampaignView
   },
+    
+  {
+    path: '/profile',
+    name: 'ProfileView',
+    component: ProfileView
+  },
+
+  
   {
     path: '/about',
     name: 'about',
